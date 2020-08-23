@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Beeyond Ink's Harm</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Bee.css">
+    </head>
+    <body>
+        <section>
+            <img src="/images/bg.jpg" id="bg"> 
+            <img src="/images/moon.png" id="moon">
+            <img src="/images/mountain.png" id="mountain">
+            <img src="/images/road.png" id="road">
+            <h2 id="text">Inked By Harms</h2>   
+            <h3 id="text2">Professional Tattoo Artist</h3>
+            <h4 id="text3"> Contact me</h4>
+           
+        </section>
+
+
+
+
+
+        <script type="text/javascript">
+            let bg = document.getElementById("bg");
+            let moon = document.getElementById("moon");
+            let mountain = document.getElementById("mountain");
+            let road = document.getElementById("road");
+            let text = document.getElementById("text");
+            let text2 = document.getElementById("text2");
+            let text3 = document.getElementById("text3");
+
+            window.addEventListener('scroll', function(){
+                var value = window.scrollY;
+
+                bg.style.top = value * 0.5 + 'px';
+                moon.style.left = -value * 0.5 + 'px';
+                mountain.style.top = -value * 0.15 + 'px';
+                road.style.top = value * 0.15 + 'px';
+                text.style.top = value * 1 + 'px';
+                text2.style.top = -value * 1 + 'px';
+                text3.style.left = value * 1 + 'px';
+                
+            })
+        </script>
+    </body>
+</html>
