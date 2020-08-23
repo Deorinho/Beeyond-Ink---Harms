@@ -15,3 +15,13 @@ As of now the first render consists of a landing page where there are three head
 2. Her job title ~ a link to the business website
 3. contact me ~ a pop up of phone number and directions to the store
 I plan on tranforming the words into possible text boxes or just hyperlink them to their respective locations 
+
+
+
+THINGS FOR RENDER 2:
+Alongside I want to have multiple pieces of her work to appear and disappear upon vertical scrolling with a tiny blurb and a learn more button
+as well as a link to the instagram post as well.
+
+on the contact me page i want to either make a pop up window or on the website itself. however it will include directions, hours, contact info of artist as well as additional info on Covid or whatever...
+
+I would like to change the layout to match the bee motif as well as the black and yellow palette used in their business logo.
