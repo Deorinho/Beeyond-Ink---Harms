@@ -9,3 +9,9 @@ this then acts like mirror images however the speeds of the different wrappers a
 the background'.
 
 This is an ongoing project that will be featured on my portfolio which has a TBA date.
+
+As of now the first render consists of a landing page where there are three headings:
+1. Inked by harms ~ a link to her instagram
+2. Her job title ~ a link to the business website
+3. contact me ~ a pop up of phone number and directions to the store
+I plan on tranforming the words into possible text boxes or just hyperlink them to their respective locations 
